@@ -1,0 +1,14 @@
+# Update repositories
+pkg update && pkg upgrade
+
+# Install essential tools
+pkg install openssh git ncurses-utils termux-api
+
+# Set a password for SSH access
+passwd
+
+# Find your internal username (e.g., u0_a234)
+whoami
+
+# Start the SSH daemon
+sshd
