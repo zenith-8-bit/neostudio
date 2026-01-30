@@ -1,0 +1,2 @@
+adb forward tcp:8022 tcp:8022
+#use ADB Port ForwardingConnect your phone to the laptop with a USB cable (USB Debugging enabled).
